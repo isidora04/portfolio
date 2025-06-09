@@ -20,19 +20,19 @@ const About = () => {
                 className='text-purple-400'>
                     UofT
                 </a>, studying Computer Science and Cognitive Science. I'm passionate 
-                about full-stack development and I enjoy making pretty websites.
+                about full-stack development and making pretty websites.
             </div>
             <div className="mt-[1.5rem] text-lg">
                 Here are some of the technologies I've been working with:
             </div>
-            <ul className="grid grid-cols-1 list-disc list-inside mt-[0.5rem] md:grid-cols-2 marker:text-purple-400">
+            <ul className="columns-1 list-disc list-inside mt-[0.5rem] md:columns-2 marker:text-purple-400">
                 <li>JavaScript/TypeScript</li>
-                <li>PostgreSQL</li>
                 <li>React</li>
-                <li>Python</li>
                 <li>Node.js</li>
-                <li>Java</li>
                 <li>Express.js</li>
+                <li>PostgreSQL</li>
+                <li>Python</li>
+                <li>Java</li>
                 <li>C</li>
             </ul>
         </div>
