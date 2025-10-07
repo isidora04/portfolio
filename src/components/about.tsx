@@ -13,7 +13,7 @@ const About = () => {
                 </span>
             </span>
 
-            <div className="mt-[1.5rem] text-lg">I'm a third-year student at {" "}
+            <div className="mt-[1.5rem] text-lg">I'm a fourth-year student at {" "}
                 <a href="https://www.utoronto.ca/" 
                 target='_blank'
                 rel="noopener noreferrer"
