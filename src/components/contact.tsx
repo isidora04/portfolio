@@ -6,7 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 const Contact = () => {
 
     return (
-        <div className="w-[70%] mt-[2rem] text-slate-400 font-semibold">
+        <div className="w-[80%] md:w-[70%] mt-[2rem] text-slate-400 font-semibold">
 
             <div className="text-4xl text-slate-200 my-[1.5rem]" id="contact">Wanna get in touch?</div>
 

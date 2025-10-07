@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Nav = () => {
 
     return (
-        <div className="sticky w-[70%] flex justify-between items-center bg-white/10 backdrop-blur-md top-[1rem] p-[1rem]
+        <div className="sticky w-[80%] md:w-[70%] flex justify-between items-center bg-white/10 backdrop-blur-md top-[1rem] p-[1rem]
         z-50 border rounded-xl border-slate-600">
             <div className="sm:flex gap-[1rem] hidden">
                 <a href="#"

@@ -36,9 +36,9 @@ const Projects = () => {
     ]
 
     return (
-        <div className="w-[70%] mt-[2rem] text-slate-400 font-semibold">
+        <div className="w-[80%] md:w-[70%] mt-[2rem] text-slate-400 font-semibold">
 
-            <div className="text-4xl text-slate-200 mb-[1.5rem]" id="projects">Projects</div>
+            <div className="text-4xl bg-gradient-to-r from-slate-200 to-slate-300 inline-block text-transparent bg-clip-text mb-[1.5rem]" id="projects">Projects</div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem]">
                 {projects.map((item, _index) => (
