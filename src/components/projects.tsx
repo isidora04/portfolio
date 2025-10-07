@@ -20,7 +20,7 @@ const Projects = () => {
             tech: "TypeScript, React"
         },
         {   name: "Loyalty Program",
-            desc: "A full-stack web application for managing users, transactions, \
+            desc: "A full-stack, role-based web application for managing users, transactions, \
             events, and promotions, with support for point-based loyalty tracking and redemption.",
             github: "",
             view: "", 
