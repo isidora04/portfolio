@@ -10,28 +10,34 @@ const Projects = () => {
             create, manage, browse, and study flashcards.",
             github: "https://github.com/isidora04/flashcard-app",
             view: "https://flashcard-app-lime-seven.vercel.app/login", 
-            tech: "Node.js, Express.js, React, PostgreSQL"
+            tech: "Node.js, Express.js, React, PostgreSQL, Docker"
         },
         {   name: "NBA Player Guessing Game",
             desc: "A browser-based game where you try to guess the NBA player \
             based on clues like team, height, position, and more. Inspired by games like Poeltl.",
             github: "https://github.com/isidora04/nba-guessing-game",
-            view: "https://nba-guessing-game.vercel.app/play", 
+            view: "https://nba-guessing-game.netlify.app/play", 
             tech: "TypeScript, React"
+        },
+        {   name: "My Portfolio",
+            desc: "This website!",
+            github: "https://github.com/isidora04/portfolio",
+            view: "https://isidoranedic.com", 
+            tech: "TypeScript, Tailwind CSS, React"
         },
         {   name: "Loyalty Program",
             desc: "A full-stack, role-based web application for managing users, transactions, \
             events, and promotions, with support for point-based loyalty tracking and redemption.",
-            github: "",
+            github: "https://github.com/isidora04/loyalty-program",
             view: "", 
-            tech: "Node.js, Express.js, React, Prisma"
+            tech: "Node.js, Express.js, React, Prisma, SQLite"
         },
         {   name: "Recipe Organizer",
             desc: "A recipe management app that allows users to search recipes by keyword, \
             build a personal meal plan, and automatically generate a shopping list based on selected ingredients.",
             github: "https://github.com/macy-chen/RecipeOrganizer",
             view: "", 
-            tech: "Java, Swing"
+            tech: "Java, Swing, JUnit"
         },
     ]
 
