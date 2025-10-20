@@ -24,7 +24,7 @@ const Contact = () => {
                 className="text-slate-300 hover:text-purple-400 transition-colors text-5xl">
                     <GitHubIcon fontSize="inherit"></GitHubIcon>
                 </Link>
-                <Link to="https://www.linkedin.com/in/isidora-nedic-a9110b331"
+                <Link to="https://www.linkedin.com/in/isidora-n-a9110b331"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-300 hover:text-purple-400 transition-colors text-5xl">
