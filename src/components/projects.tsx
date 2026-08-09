@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import PublicIcon from '@mui/icons-material/Public';
 
 const Projects = () => {
 
