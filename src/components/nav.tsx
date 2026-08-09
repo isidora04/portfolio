@@ -30,7 +30,7 @@ const Nav = () => {
         z-50">
             <div className="flex flex-col w-[100%] items-end gap-[1rem]">
                 <div className="text-xs text-stone-500 font-normal">
-                    <h5>(UTC-{getOffset('America/New_York')}) {currentTime}</h5>
+                    <h5>(UTC{getOffset('America/New_York')}) {currentTime}</h5>
                 </div>
                 <div className="flex gap-[1rem]">
                     <a  className="hover:text-pink-500 transition-colors"
