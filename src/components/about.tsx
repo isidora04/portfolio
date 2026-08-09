@@ -3,38 +3,25 @@ import { TypeAnimation } from 'react-type-animation';
 const About = () => {
 
     return (
-        <div className="w-[80%] md:w-[70%] mt-[2rem] text-slate-400 font-semibold">
+        <div className="w-[90%] md:w-[46%] mt-[1rem] text-[#000000] font-semibold">
 
-            <span className="text-5xl" id='about'>
-                <span className="text-slate-400">Hi, </span>
-                <span className="text-slate-200"> 
-                    <TypeAnimation sequence={["I'm Isidora"]}>
+            <span className="text-5xl font-bold" id='about'>
+                <span className='text-pink-500 inline-block' id='spin-flower'>✿</span>
+                <span> hi, </span>
+                <span> 
+                    <TypeAnimation cursor={false} sequence={["i'm isidora"]}>
                     </TypeAnimation>
                 </span>
             </span>
 
-            <div className="mt-[1.5rem] text-lg">I'm a fourth-year student at {" "}
+            <div className="mt-[1.5rem] text-lg">i'm a fourth-year student at the {" "}
                 <a href="https://www.utoronto.ca/" 
                 target='_blank'
                 rel="noopener noreferrer"
-                className='text-purple-400'>
-                    UofT
-                </a>, studying Computer Science and Cognitive Science. I'm passionate 
-                about full-stack development and making pretty websites.
+                className='text-pink-500'>
+                    university of toronto
+                </a>, pursuing a double major in computer science and cognitive science
             </div>
-            <div className="mt-[1.5rem] text-lg">
-                Here are some of the technologies I've been working with:
-            </div>
-            <ul className="columns-1 list-disc list-inside mt-[0.5rem] md:columns-2 marker:text-purple-400">
-                <li>JavaScript/TypeScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>PostgreSQL</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>C</li>
-            </ul>
         </div>
     )
 }

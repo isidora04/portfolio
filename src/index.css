@@ -1,12 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Manrope", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #edede9;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,7 +16,7 @@
 
 body {
   margin: auto;
-  background-image: linear-gradient(to top, rgb(2 6 23), rgb(9, 17, 37));
+  background-color: #edede9;
   display: flex;
   place-items: center;
   min-width: 320px;

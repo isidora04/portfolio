@@ -5,71 +5,58 @@ import PublicIcon from '@mui/icons-material/Public';
 const Projects = () => {
 
     const projects = [
-        {   name: "Flashcard Maker",
-            desc: "A full-stack flashcard application that enables users to \
-            create, manage, browse, and study flashcards.",
+        {   name: "flashcard web app",
             github: "https://github.com/isidora04/flashcard-app",
-            view: "https://flashcard-app-lime-seven.vercel.app/login", 
-            tech: "Node.js, Express.js, React, PostgreSQL, Docker"
+            view: "", 
+            tech: "node.js, express.js, react, postgresql"
         },
-        {   name: "NBA Player Guessing Game",
-            desc: "A browser-based game where you try to guess the NBA player \
-            based on clues like team, height, position, and more. Inspired by games like Poeltl.",
+        {   name: "nba player guessing game",
             github: "https://github.com/isidora04/nba-guessing-game",
             view: "https://nba-guessing-game.netlify.app/play", 
-            tech: "TypeScript, React"
+            tech: "typescript, react"
         },
-        {   name: "My Portfolio",
-            desc: "This website!",
-            github: "https://github.com/isidora04/portfolio",
-            view: "https://isidoranedic.com", 
-            tech: "TypeScript, Tailwind CSS, React"
-        },
-        {   name: "Loyalty Program",
-            desc: "A full-stack, role-based web application for managing users, transactions, \
-            events, and promotions, with support for point-based loyalty tracking and redemption.",
+        {   name: "loyalty system",
             github: "https://github.com/isidora04/loyalty-program",
             view: "", 
-            tech: "Node.js, Express.js, React, Prisma, SQLite"
+            tech: "node.js, express.js, react, prisma, sqlite"
         },
-        {   name: "Recipe Organizer",
-            desc: "A recipe management app that allows users to search recipes by keyword, \
-            build a personal meal plan, and automatically generate a shopping list based on selected ingredients.",
+        {   name: "recipe organizer",
             github: "https://github.com/macy-chen/RecipeOrganizer",
             view: "", 
-            tech: "Java, Swing, JUnit"
+            tech: "java, swing, junit"
         },
     ]
 
     return (
-        <div className="w-[80%] md:w-[70%] mt-[2rem] text-slate-400 font-semibold">
+        <div className="w-[90%] md:w-[46%] mt-[2rem] text-black font-semibold">
 
-            <div className="text-4xl bg-gradient-to-r from-slate-200 to-slate-300 inline-block text-transparent bg-clip-text mb-[1.5rem]" id="projects">Projects</div>
+            <div className="text-xl font-bold mb-[1.5rem] mt-[2rem]" id="projects">projects</div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem]">
+            <div className="grid grid-cols-1 gap-[1rem]">
                 {projects.map((item, _index) => (
-                    <div key={item.name} className="bg-white/10 p-[1rem] box-border rounded-xl hover:bg-white/15 transition-colors">
-                        <div className="flex justify-between mb-[0.6rem] text-slate-200 text-lg">
+                    <div key={item.name} className="hover:bg-white/15 transition-colors">
+                        <div className="flex sm:justify-between sm:flex-row flex-col mb-[0.6rem] text-md">
                             {item.name}
-                            <div className="flex gap-[5px]">
-                                {item.github ? (<Link to={item.github}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-slate-300 hover:text-purple-400 transition-colors">
-                                        <GitHubIcon></GitHubIcon>
-                                    </Link>) 
-                                : ""}
-                                {item.view ? (<Link to={item.view}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-slate-300 hover:text-purple-400 transition-colors">
-                                        <PublicIcon></PublicIcon>
-                                    </Link>) 
-                                : ""}
+                            <div className="flex gap-[5px] text-stone-500 sm:text-end">
+                                {item.tech}
                             </div>
                         </div>
-                        <div className="mb-[0.6rem] font-light text-sm text-purple-300">{item.tech}</div>
-                        <div className="font-medium">{item.desc}</div>
+                        <div className="mb-[0.6rem] mt-[-0.7rem] text-stone-700">
+                            {item.github ? (<Link to={item.github}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:text-pink-500 hover:underline transition-colors">
+                                        github
+                                    </Link>) 
+                                : ""}
+                            {item.view ? (<span> • </span>) : ""}
+                            {item.view ? (<Link to={item.view}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-pink-500 hover:underline transition-colors">
+                                    site
+                                </Link>) 
+                            : ""}</div>
                     </div>
                 ))}
             </div>
