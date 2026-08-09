@@ -5,3 +5,16 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+#spin-flower {
+  animation: spin-clockwise 15s linear infinite;
+}
+
+@keyframes spin-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

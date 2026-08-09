@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/about';
 import Contact from './components/contact';
+import Experience from './components/experience';
 import Nav from './components/nav'
 import Projects from './components/projects';
 
@@ -10,6 +11,7 @@ function App() {
     <div className='flex flex-col items-center min-h-screen'>
       <Nav></Nav>
       <About></About>
+      <Experience></Experience>
       <Projects></Projects>
       <Contact></Contact>
     </div>

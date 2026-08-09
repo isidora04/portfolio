@@ -1,35 +1,19 @@
-import { Link } from "react-router-dom";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 
 const Contact = () => {
 
     return (
-        <div className="w-[80%] md:w-[70%] mt-[2rem] text-slate-400 font-semibold">
-
-            <div className="text-4xl text-slate-200 my-[1.5rem]" id="contact">Wanna get in touch?</div>
-
-            <a  className="text-xl hover:text-purple-400 transition-color"
-                id="email" 
-                href="mailto:isidoranedic1@gmail.com">
-                <EmailIcon></EmailIcon>{" "}
-                <span className="underline">isidoranedic1@gmail.com</span>
-            </a>
-
-            <div className="flex gap-[0.5rem] my-[1rem] items-end">
-                <Link to="https://www.github.com/isidora04"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-slate-300 hover:text-purple-400 transition-colors text-5xl">
-                    <GitHubIcon fontSize="inherit"></GitHubIcon>
-                </Link>
-                <Link to="https://www.linkedin.com/in/isidora-n-a9110b331"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-slate-300 hover:text-purple-400 transition-colors text-5xl">
-                    <LinkedInIcon fontSize="inherit"></LinkedInIcon>
-                </Link>
+        <div className="w-[90%] md:w-[46%] mt-[2rem] text-black font-semibold mb-[1rem]">
+            <div className="text-xl font-bold mb-[1rem] mt-[2rem]" id="contact">contact</div>
+            <div className='flex justify-between'>
+                <a  className="text-md hover:text-pink-500 transition-colors w-max max-w-max"
+                    id="email" 
+                    href="mailto:isidoranedic1@gmail.com">
+                    <div className='flex gap-[0.7rem] items-center w-max max-w-max'>
+                        <span className='text-pink-500'><EmailIcon></EmailIcon></span>
+                        <span className="underline underline-offset-2"> isidoranedic1@gmail.com</span>
+                    </div>
+                </a>
             </div>
         </div>
     )
