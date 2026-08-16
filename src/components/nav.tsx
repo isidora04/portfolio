@@ -33,22 +33,17 @@ const Nav = () => {
                     <h5>(UTC-{getOffset('America/New_York')}) {currentTime}</h5>
                 </div>
                 <div className="flex gap-[1rem]">
-                    <a  className="hover:text-pink-500 transition-colors"
-                        id="email" 
-                        href="mailto:isidoranedic1@gmail.com">
-                        contact
-                    </a>
-                    <Link to="https://www.github.com/isidora04"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    <Link to="/"
                     className="hover:text-pink-500 transition-colors">
-                        github
+                        about
                     </Link>
-                    <Link to="https://www.linkedin.com/in/isidora-n-a9110b331"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    <Link to="/experience"
                     className="hover:text-pink-500 transition-colors">
-                        linkedin
+                        experience
+                    </Link>
+                    <Link to="/photos"
+                    className="hover:text-pink-500 transition-colors">
+                        photos
                     </Link>
                 </div>
             </div>
